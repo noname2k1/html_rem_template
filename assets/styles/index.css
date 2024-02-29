@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    font-family: 'PN Regular';
+}
+
+@media (min-width:1600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    width: 87.5rem;
+    margin: auto;
+
+}
+
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+
+:root {}
+
+
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+
+.d-none {
+    display: none !important;
+}
+
+.d-flex {
+    display: flex !important;
+    align-items: center;
+}
+
+
+.d-block {
+    display: block !important;
+}
+
+/* @font-face {
+    font-family: 'PN Bold';
+    src: url('../fonts/Proxima\ Nova\ Bold\ vh.ttf');
+}
+
+@font-face {
+    font-family: 'PN Regular';
+    src: url('../fonts/Proxima\ Nova\ Regular\ vh.ttf');
+}
+
+@font-face {
+    font-family: 'PN Semibold';
+    src: url('../fonts/Proxima\ Nova\ Semibold\ vh.ttf');
+} */
+
+
+@media (max-width: 767px) {
+    .mobile {
+        display: block;
+    }
+
+    .large {
+        display: none !important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .mobile {
+        display: none !important;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .large {
+        display: none !important;
+    }
+}
+
+@media (min-width:1024px) {
+    .mobile {
+        display: none !important;
+    }
+
+    .tablet {
+        display: none !important;
+    }
+}
